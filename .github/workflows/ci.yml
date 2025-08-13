@@ -1,0 +1,21 @@
+name: C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install dependencies
+      run: sudo apt-get install -y cmake g++ libgtest-dev && sudo apt-get install -y googletest
+    - name: Configure
+      run: cmake -S . -B build
+    - name: Build
+      run: cmake --build build
+    - name: Run tests
+      run: ctest --test-dir build
