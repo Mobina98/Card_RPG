@@ -1,8 +1,0 @@
-/home/mobina/Documents/Card_RPG/build/CMakeFiles/edit_cache.dir
-/home/mobina/Documents/Card_RPG/build/CMakeFiles/rebuild_cache.dir
-/home/mobina/Documents/Card_RPG/build/src/CMakeFiles/Card_RPG.dir
-/home/mobina/Documents/Card_RPG/build/src/CMakeFiles/edit_cache.dir
-/home/mobina/Documents/Card_RPG/build/src/CMakeFiles/rebuild_cache.dir
-/home/mobina/Documents/Card_RPG/build/tests/CMakeFiles/Card_RPG_Tests.dir
-/home/mobina/Documents/Card_RPG/build/tests/CMakeFiles/edit_cache.dir
-/home/mobina/Documents/Card_RPG/build/tests/CMakeFiles/rebuild_cache.dir
