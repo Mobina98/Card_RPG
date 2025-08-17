@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Card_RPG.dir/main.cpp.o -o Card_RPG 
