@@ -31,9 +31,12 @@ void Card_Game::setupDefaultDecks(){
 }
 
 void Card_Game::printState() const {
-    auto p = player_, e = enemy_;
+    std::shared_ptr<Player> p = player_;
+    std::shared_ptr<Enemy> e = enemy_;
+
     std::cout << "\n=== Fantasy Card RPG ===\n";
-    std::cout << p->name() << " HP: " << p->health() << " | " << e->name() << " HP: " << e->health() << "\n";
+    std::cout << p->name() << " HP: " << p->health()
+              << " | " << e->name() << " HP: " << e->health() << "\n";
 }
 
 void Card_Game::startGame(){
