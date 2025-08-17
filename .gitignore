@@ -1,1 +1,38 @@
+# Build folders
 build/
+out/
+bin/
+lib/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+Card_RPG
+runTests
+
+# Libraries
+*.a
+*.so
+*.dll
+*.dylib
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.user
+*.swp
+*~
